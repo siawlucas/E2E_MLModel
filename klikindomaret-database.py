@@ -14,7 +14,7 @@ import psycopg2
 # Configuration variables
 BASE_URL = "https://www.klikindomaret.com/page/unilever-officialstore?categoryID=&productbrandid=&sortcol=&pagesize=50&startprice=&endprice=&attributes=&ShowItem="
 MAX_PAGES = 2  # Set the number of pages to scrape
-WAIT_TIME = 2  # Time to wait for pages to load
+WAIT_TIME = 5  # Time to wait for pages to load
 DATA_DIR = 'data'
 TIMESTAMP = datetime.now().strftime("%Y%m%d%H%M%S")
 BATCH_SIZE = 5  # Number of products to process before uploading
@@ -22,7 +22,7 @@ BATCH_SIZE = 5  # Number of products to process before uploading
 # PostgreSQL configuration
 POSTGRES_HOST = 'localhost'
 POSTGRES_PORT = '5400'
-POSTGRES_DB = 'bfi_test'
+POSTGRES_DB = 'e2e_ml'
 POSTGRES_USER = 'admin'
 POSTGRES_PASSWORD = 'admin'
 TABLE_NAME = 'klikindomaret_stg'

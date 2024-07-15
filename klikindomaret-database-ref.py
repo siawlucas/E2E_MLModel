@@ -7,7 +7,7 @@ import pandas as pd
 # PostgreSQL configuration
 POSTGRES_HOST = 'localhost'
 POSTGRES_PORT = '5400'
-POSTGRES_DB = 'bfi_test'
+POSTGRES_DB = 'e2e_ml'
 POSTGRES_USER = 'admin'
 POSTGRES_PASSWORD = 'admin'
 STG_TABLE_NAME = 'klikindomaret_stg'

@@ -5,7 +5,7 @@ services:
     environment:
       POSTGRES_USER: admin
       POSTGRES_PASSWORD: admin
-      POSTGRES_DB: bfi_test
+      POSTGRES_DB: e2e_ml
     ports:
       - "5400:5432"
     volumes:

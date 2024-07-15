@@ -7,7 +7,7 @@ DB_CONFIG = {
     'password': 'admin',
     'host': 'localhost',
     'port': '5400',
-    'database': 'bfi_test'
+    'database': 'e2e_ml'
 }
 
 TABLE_NAME = 'klikindomaret_ref'
